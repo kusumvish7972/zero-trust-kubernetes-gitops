@@ -8,6 +8,7 @@ rgs = {
     name     = "rg-chor2"
     location = "eastus"
   }
+
 }
 
 vnet = {
@@ -22,6 +23,8 @@ vnet = {
     name                = "vnet-chor2"
     resource_group_name = "rg-chor"
     location            = "eastus"
+
+    
     address_space       = ["10.0.0.0/16"]
   }
 }
